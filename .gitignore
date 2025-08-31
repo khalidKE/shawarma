@@ -1,4 +1,29 @@
-﻿*.zip
-*.gz
+# System files
 .DS_Store
-__MACOSX/
+Thumbs.db
+
+# IDE specific files
+.idea/
+.vscode/
+*.sublime-workspace
+*.sublime-project
+
+# Build directories
+/build/
+/out/
+
+# Dependency directories
+/node_modules/
+/vendor/
+
+# Logs
+*.log
+
+# Local development files
+.env
+.env.local
+
+# Only ignore zip files in specific directories
+1.7.60/Apps/*/*.zip
+1.7.60/Backend/*.zip
+1.7.60/Backend/*.gz
